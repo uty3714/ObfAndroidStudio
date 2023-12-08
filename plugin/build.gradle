@@ -11,7 +11,7 @@ dependencies {
     implementation gradleApi()
     //groovy sdk
     implementation localGroovy()
-    implementation "om.github.uty3714:BlackObfuscator-jar2dex-2.2:dex-tools:2.2"
+    implementation "com.github.CodingGay.BlackObfuscator:dex-tools:2.2"
 }
 
 repositories {
@@ -27,11 +27,11 @@ version='1.0.0'
 //    repositories {
 //        mavenDeployer {
 //            //提交到远程服务器：
-////             repository(url: "https://jitpack.io") {
-////                authentication(userName: "uty3714@163.com", password: "qq11013610")
-////             }
+//            // repository(url: "http://www.xxx.com/repos") {
+//            //    authentication(userName: "admin", password: "admin")
+//            // }
 //            //本地的Maven地址设置为E:/Maven
-//            //repository(url: uri('../localRepo'))
+//            repository(url: uri('../localRepo'))
 //        }
 //    }
 //}
